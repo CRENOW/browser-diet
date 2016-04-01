@@ -3,11 +3,9 @@ order: 9
 title: Selectors
 ---
 
-* > This tip needs to be translated. [Contribute.](https://github.com/zenorocha/browser-diet/blob/master/src/documents/jquery/fr/selectors.html.md)
+Dans l'utilisation de jQuery, le choix du sélecteur est l'un des points les plus importants. En effet, il existe de nombreuses façons pour sélectionner un élément du DOM, mais cela ne signifie pas qu'ils ont forcément les mêmes performances, vous pouvez sélectionner un élément en utilisant les classes, les ID ou les méthodes comme `find()`, `children()`.
 
-Selectors is one of the most important issues in the use of jQuery. There are many different ways to select an element from the DOM, but that doesn't mean they have the same performance, you can select an element using classes, IDs or methods like `find()`, `children()`.
-
-Among all of them, select an ID is the fastest one, because its based on a native DOM operation:
+Parmi toutes les possibilités, la solution la plus rapide reste la sélection de l’ID car elle est basée sur une opération de DOM native.
 
 ```js
 $("#foo");
